@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    background-color: #ffcd9e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    font-size: 1.3em;
+    padding: 3rem;
+}
+
+.top_text{
+    flex: 0.45;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top_img{
+    flex: 0.2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top_img{
+    height: 110%;
+}
+
+img{
+    height: 90%;
+}
+
+.head{
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.about{
+    font-weight: 500;
+    width: 80%;
+    font-size: 1em;
+    margin: 1.5rem 0;
+}
+
+.caption{
+    font-weight: 800;
+    font-size: 1em;
+    margin: 0 0 1rem;
+}
+
+.input_field{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.input{
+    flex: 0.55;
+    padding: 15px 20px;
+    border: solid .5vh black;
+    border-radius: 5px;
+}
+
+.btn{
+    flex: 0.4;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: none;
+}
+
+.watermark{
+    font-size: 0.8em;
+    color: white;
+    margin: 0.5rem 2rem;
+}
+
+.footer {
+    background: #000;
+    min-height: calc(100vh - 500px);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2;
+    padding: 6vh 8vw;
+}
+
+li{
+    list-style: none;
+    margin: 1.5vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.first{
+    flex: 0.4;
+}
+
+.second{
+    flex: 0.6;
+    text-align: end;
+}
+
+img{
+    margin:0 0.5vw 2vh 0;
+}
